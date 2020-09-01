@@ -601,7 +601,7 @@ namespace KRASH
 
                 // Check for atmospheric flight
                 if (KRASHShelter.instance.cfg.TerminateAtAtmoWithoutData &&
-					FlightGlobals.fetch.activeVessel.mainBody.atmosphere &&
+                    FlightGlobals.fetch.activeVessel.mainBody.atmosphere &&
                     FlightGlobals.fetch.activeVessel.RevealAltitude() <= FlightGlobals.fetch.activeVessel.mainBody.atmosphereDepth &&
                     !FlightGlobals.fetch.activeVessel.mainBody.isHomeWorld)
                 {
