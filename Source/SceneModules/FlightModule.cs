@@ -659,7 +659,7 @@ namespace KRASH
 
         private void CallbackSOIChanged(GameEvents.HostedFromToAction<Vessel, CelestialBody> action)
         {
-			Log.Info("CallbackSOIChanged");
+            Log.Info("CallbackSOIChanged");
 
             if (KRASHShelter.instance.cfg.TerminateAtSoiWithoutData)
             {
@@ -946,7 +946,7 @@ namespace KRASH
         {
             if (!simTermination)
             {
-				Log.Info("DisplayTerminationMessage: " + msg);
+                Log.Info("DisplayTerminationMessage: " + msg);
                 simTermination = true;
                 simTerminationMsg = msg;
                 //                KRASHShelter.persistent.SetSuspendUpdate(false);
