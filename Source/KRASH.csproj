@@ -74,6 +74,7 @@
   </Target>
   -->
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="GPL V3.txt" />
     <None Include="..\LICENSE.md">
       <Link>LICENSE.md</Link>
